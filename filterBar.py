@@ -44,8 +44,8 @@ def fwdparse(rawHeaders, rawSeqs, outputLength):
 	    usableSeqs.append(rawSeq[60:60+outputLength] + '\n')
     return usableHeaders, usableSeqs
 
-# This wrapper function takes user-defined input and output directories as well
-# as the common length to trim 16S sequences. These variables are used to parse
+# This wrapper function takes user-defined input and output files as well as
+# the common length to trim 16S sequences. These variables are used to parse
 # and export fasta sequences that match the barcode fusion structure.
 def main():
     parser = OptionParser()

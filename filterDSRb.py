@@ -47,8 +47,8 @@ def fwdparse(rawHeaders, rawSeqs, outputLength):
 	usableSeqs.append(splitSeq[1][1:outputLength+1] + '\n')
     return usableHeaders, usableSeqs
 
-# This wrapper function takes user-defined input and output directories as well
-# as the common length to trim 16S sequences. These variables are used to parse
+# This wrapper function takes user-defined input and output files as well as
+# the common length to trim 16S sequences. These variables are used to parse
 # and export fasta sequences that match the dsrB fusion structure.
 def main():
     parser = OptionParser()
