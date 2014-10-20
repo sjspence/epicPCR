@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # filterDSRb.py
-# 10/20/2014 Sarah J. Spencer, Alm Lab
+# 10/20/2014 Sarah J. Spencer, Alm Lab, MIT
 # Filter Illumina sequence reads for matches to a section of the dsrB
 # gene and known bridge primer sequences.
 

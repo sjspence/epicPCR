@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # filterBar.py
-# 10/20/2014 Sarah J. Spencer, Alm Lab
+# 10/20/2014 Sarah J. Spencer, Alm Lab, MIT
 # Filter Illumina sequence reads for matches to synthetic barcode primer
 # structure. Export 16S sequences trimmed to common length.
 
