@@ -2,6 +2,7 @@ efPCR
 =====
 
 Scripts to parse sequence data from emulsion-fusion PCR.
+
 10/29/2014 Sarah J. Spencer, Alm Lab, MIT
 
 CONTENTS OF THIS FILE
@@ -75,15 +76,17 @@ COMMAND LINE ARGUMENTS
       -o [output fasta]
 
 1.7 Filter fasta sequences for fusion structure and export trimmed 16S sequences
+
     (custom scripts, either for barcode-16S or dsrB-16S fusions)
+
     (for bulk 16S data, use filterLength.py to trim read lengths)
 
       python filterBar.py -i [input fasta] -l [16S length] -o [output fasta]
       python filterDSRb.py -i [input fasta] -l [16S length] -o [output fasta]
       python filterLength.py -i [input fasta] -l [16S length] -o [output fasta]
 
-      For barcode-16S fusions, collapse identical barcode-16S pairs into a
-      consensus sequence for downstream analysis (custom script)
+    For barcode-16S fusions, collapse identical barcode-16S pairs into a
+    consensus sequence for downstream analysis (custom script)
 
       python compressBar.py -i [input fasta] -o [output fasta]
 
@@ -110,6 +113,7 @@ NOTE: all the following commands are from the QIIME pipeline
       -o [biom file]
 
 2.5 Rarefactions to even the sequencing depth
+
     NOTE: only perform this step if comparing sensitivity across samples
 
       multiple_rarefactions_even_depth.py -i [biom file] -d [read depth]
