@@ -88,7 +88,8 @@ COMMAND LINE ARGUMENTS
       python compressBar.py -i [input fasta] -o [output fasta]
 
 **2 Fasta to Operational Taxonomic Units (OTUs)**
-    NOTE: all the following commands are from the QIIME pipeline
+
+NOTE: all the following commands are from the QIIME pipeline
 
 2.1 Pick OTUs using uclust
 
