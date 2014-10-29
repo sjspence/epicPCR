@@ -42,7 +42,7 @@ INSTALLATION
 
 COMMAND LINE ARGUMENTS
 ----------------------
-# 1 Fastq to fasta
+**1 Fastq to fasta**
 
 1.1 Join paired-end sequences using fastq quality scores (QIIME script)
 
@@ -87,7 +87,7 @@ COMMAND LINE ARGUMENTS
 
       python compressBar.py -i [input fasta] -o [output fasta]
 
-# 2 Fasta to Operational Taxonomic Units (OTUs)
+**2 Fasta to Operational Taxonomic Units (OTUs)**
     NOTE: all the following commands are from the QIIME pipeline
 
 2.1 Pick OTUs using uclust
