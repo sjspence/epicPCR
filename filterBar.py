@@ -25,7 +25,7 @@ def importData(inputFileName):
     return rawHeaders, rawSeqs
 
 # Parse the joined fasta read for designed primer sequence structure
-# Output: sequences that match the designed structure
+# Output: 16S sequences from fusions that match the designed structure
 def fwdparse(rawHeaders, rawSeqs, outputLength):
     import sys
     usableHeaders = []
@@ -46,7 +46,8 @@ def fwdparse(rawHeaders, rawSeqs, outputLength):
 
 # This wrapper function takes user-defined input and output files as well as
 # the common length to trim 16S sequences. These variables are used to parse
-# and export fasta sequences that match the barcode fusion structure.
+# and export 16S fasta sequences from fusions that match the barcode fusion
+# structure.
 def main():
     parser = OptionParser()
     parser.add_option("-i", "--input", dest="i",

@@ -2,7 +2,8 @@
 # filterDSRb.py
 # 10/20/2014 Sarah J. Spencer, Alm Lab, MIT
 # Filter Illumina sequence reads for matches to a section of the dsrB
-# gene and known bridge primer sequences.
+# gene and known bridge primer sequences. Export 16S sequences trimmed to a
+# common length.
 
 from optparse import OptionParser
 import re
@@ -26,7 +27,7 @@ def importData(inputFileName):
     return rawHeaders, rawSeqs
 
 # Parse the joined fasta reads for designed primer sequence structure
-# Output: sequences that match the designed structure
+# Output: 16S sequences from fusions that match the designed structure
 def fwdparse(rawHeaders, rawSeqs, outputLength):
     usableHeaders = []
     usableSeqs = []
@@ -49,7 +50,8 @@ def fwdparse(rawHeaders, rawSeqs, outputLength):
 
 # This wrapper function takes user-defined input and output files as well as
 # the common length to trim 16S sequences. These variables are used to parse
-# and export fasta sequences that match the dsrB fusion structure.
+# and export 16S fasta sequences from fusions that match the dsrB fusion
+# structure.
 def main():
     parser = OptionParser()
     parser.add_option("-i", "--input", dest="i",
