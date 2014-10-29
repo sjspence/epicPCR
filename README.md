@@ -35,14 +35,14 @@ INSTALLATION
 ------------
  * Perl is available for download from www.perl.org/get.html
  * Python is available for download from www.python.org/downloads
- * QIIME is available for download from qiime.org
+ * QIIME is available for download from http://qiime.org
  * The custom python and perl scripts in this directory are not packaged in a
    module. No installation is necessary, simply download the scripts
    and run them using local installations of perl, python, and QIIME.
 
 COMMAND LINE ARGUMENTS
 ----------------------
-1 Fastq to fasta
+# 1 Fastq to fasta
 
 1.1 Join paired-end sequences using fastq quality scores (QIIME script)
 
@@ -87,8 +87,8 @@ COMMAND LINE ARGUMENTS
 
       python compressBar.py -i [input fasta] -o [output fasta]
 
-2 Fasta to Operational Taxonomic Units (OTUs)
-  NOTE: all the following commands are from the QIIME pipeline
+# 2 Fasta to Operational Taxonomic Units (OTUs)
+    NOTE: all the following commands are from the QIIME pipeline
 
 2.1 Pick OTUs using uclust
 
