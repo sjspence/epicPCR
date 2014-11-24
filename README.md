@@ -1,7 +1,7 @@
-efPCR
-=====
+EPIC PCR
+========
 
-Scripts to parse sequence data from emulsion-fusion PCR.
+Scripts to parse sequence data from EPIC PCR libraries.
 
 10/29/2014 Sarah J. Spencer, Alm Lab, MIT
 
@@ -18,11 +18,11 @@ INTRODUCTION
 ------------
 Starting with raw fastq files of paired-end data, run the following list of
 commands to generate curated fasta files of 16S reads as well as Operational
-Taxonomic Units within efPCR libraries. Scripts are either included in the
+Taxonomic Units within EPIC PCR libraries. Scripts are either included in the
 QIIME package or they are custom scripts available at
-www.github.com/sjspence/efPCR.
+www.github.com/sjspence/EPIC_PCR.
 
-If you prepared an efPCR reaction with new primer sets and target genes, you
+If you prepared an EPIC PCR reaction with new primer sets and target genes, you
 should modify the custom scripts filterBar.py or filterDSRb.py to recognize your
 tailored fusion structure.
 
