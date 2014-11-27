@@ -2,7 +2,7 @@
 # filterLength.py
 # 10/20/2014 Sarah J. Spencer, Alm Lab, MIT
 # Trim 16S fasta sequences to a user-specified length in order to enable
-# alignment and comparison with EPIC PCR 16S sequences.
+# alignment and comparison with epicPCR 16S sequences.
 
 from optparse import OptionParser
 
