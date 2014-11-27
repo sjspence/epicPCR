@@ -1,4 +1,4 @@
-EPIC PCR
+epicPCR
 ========
 
 Scripts to parse sequence data from epicPCR libraries.
